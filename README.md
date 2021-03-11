@@ -8,7 +8,7 @@ Here, we introduce PhaseTank to systemically characterize phasiRNAs/tasiRNAs and
 
 ## Usage
 
-PhaseTank is implemented using Perl 5.0, which can be called using one command line. Here are examples about using PhaseTank for four different goals.
+PhaseTank is implemented using Perl 5.0, which can be called using one command line. Here are examples about using PhaseTank for four different goals. For more details, please check out our user manual [here](http://phasetank.sourceforge.net/user_manual.pdf)
 
 + To predict PHAS loci from the given organism and read libraries
  
