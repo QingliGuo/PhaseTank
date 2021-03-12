@@ -12,19 +12,27 @@ PhaseTank is implemented using Perl 5.0, which can be called using one command l
 
 + To predict PHAS loci from the given organism and read libraries
  
-```$ perl PhaseTank_v1.pl --genome ath_genome_TAIR10.fa --lib GSM1174496.fa,GSM277608.fa,GSM342999.fa,GSM709567.fa,MTSRNA1.fa,RMMT10.fa```
+```
+$ perl PhaseTank_v1.pl --genome ath_genome_TAIR10.fa --lib GSM1174496.fa,GSM277608.fa,GSM342999.fa,GSM709567.fa,MTSRNA1.fa,RMMT10.fa
+```
 
 + To predict phasiRNAs and search their miRNA-triggered cleavage
 
-```$ perl PhaseTank_v1.pl --genome ath_genome_TAIR10.fa --lib GSM1174496.fa,GSM277608.fa,GSM342999.fa,GSM709567.fa,MTSRNA1.fa,RMMT10.fa --miR ath_miRNA.fa --degradome de_GSM278335.fa –trigger_miRNA```
+```
+$ perl PhaseTank_v1.pl --genome ath_genome_TAIR10.fa --lib GSM1174496.fa,GSM277608.fa,GSM342999.fa,GSM709567.fa,MTSRNA1.fa,RMMT10.fa --miR ath_miRNA.fa --degradome de_GSM278335.fa –trigger_miRNA
+```
 
 + To predict phasiRNAs and their targets
 
-```$ perl PhaseTank_v1.pl --genome ath_genome_TAIR10.fa --lib GSM1174496.fa,GSM277608.fa,GSM342999.fa,GSM709567.fa,MTSRNA1.fa,RMMT10.fa --degradome de_GSM278335.fa --target ath_cDNA_TAIR10.fa --phasiRNA_target```
+```
+$ perl PhaseTank_v1.pl --genome ath_genome_TAIR10.fa --lib GSM1174496.fa,GSM277608.fa,GSM342999.fa,GSM709567.fa,MTSRNA1.fa,RMMT10.fa --degradome de_GSM278335.fa --target ath_cDNA_TAIR10.fa --phasiRNA_target
+```
 
 + To predict phasiRNAs, search the miRNA-triggered cleavage and detect phasiRNAs targets
 
-```$ perl PhaseTank_v1.pl --genome ath_genome_TAIR10.fa --lib GSM1174496.fa,GSM277608.fa,GSM342999.fa,GSM709567.fa,MTSRNA1.fa,RMMT10.fa --miR miRNA.fa --degradome de_GSM278335.fa --target ath_cDNA_TAIR10.fa --phasiRNA_target```
+```
+$ perl PhaseTank_v1.pl --genome ath_genome_TAIR10.fa --lib GSM1174496.fa,GSM277608.fa,GSM342999.fa,GSM709567.fa,MTSRNA1.fa,RMMT10.fa --miR miRNA.fa --degradome de_GSM278335.fa --target ath_cDNA_TAIR10.fa --phasiRNA_target
+```
 
 ## Citation
 
