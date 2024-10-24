@@ -6,6 +6,8 @@ Phase siRNAs (phasiRNAs) are a class of small RNAs, which triggered by miRNA-tar
 
 Here, we introduce PhaseTank to systemically characterize phasiRNAs/tasiRNAs and their regulatory cascades 'miRNA/phasiRNA -> PHAS gene -> phasiRNAs -> target genes' in plants.
 
+**Click [here](http://phasetank.sourceforge.net/) to reach the original website!**
+
 ## Usage
 
 PhaseTank is implemented using Perl 5.0, which can be called using one command line. Here are examples about using PhaseTank for four different goals. For more details, please check out our user manual [here](http://phasetank.sourceforge.net/user_manual.pdf)
@@ -37,5 +39,3 @@ $ perl PhaseTank_v1.pl --genome ath_genome_TAIR10.fa --lib GSM1174496.fa,GSM2776
 ## Citation
 
 **Guo Q**, Qu X, Jin W. PhaseTank: genome-wide computational identification of phasiRNAs and their regulatory cascades. Bioinformatics. 2015 Jan 15;31(2):284-6. doi: 10.1093/bioinformatics/btu628. Epub 2014 Sep 21. PMID: 25246430.
-
-Click [here](http://phasetank.sourceforge.net/) to reach the original website.
